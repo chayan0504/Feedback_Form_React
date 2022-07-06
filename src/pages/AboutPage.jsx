@@ -1,22 +1,22 @@
-import React from 'react'
-import {Link, useNavigate} from 'react-router-dom'
-function AboutPage() {
-  const navigate = useNavigate()
-  const onclick = () => {
-    navigate('/')
-  }
-  return (
-    <>
-    <div>AboutPage</div>  
-    <p><Link to="/">home</Link></p>
-    {/* <button onClick={onclick}>Click</button> */}
+// import React from 'react'
+// import {Link, useNavigate} from 'react-router-dom'
+// function AboutPage() {
+//   const navigate = useNavigate()
+//   const onclick = () => {
+//     navigate('/')
+//   }
+//   return (
+//     <>
+//     <div>AboutPage</div>  
+//     <p><Link to="/">home</Link></p>
+//     {/* <button onClick={onclick}>Click</button> */}
     
-    </>
+//     </>
   
-  )
-}
+//   )
+// }
 
-export default AboutPage
+// export default AboutPage
 
 
 
