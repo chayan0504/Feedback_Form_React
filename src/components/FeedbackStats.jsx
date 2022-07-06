@@ -10,7 +10,7 @@ function FeedbackStats() {
   }
   
   avg=(sum/feedback.length).toFixed(1)
-  if(feedback.length==0)
+  if(feedback.length===0)
   {
     avg=0
   }
